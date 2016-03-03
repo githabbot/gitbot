@@ -51,62 +51,6 @@ local function run(msg, matches)
     if matches[1] == "hamed" then
     return 'my sudo user :))'
   end
-  
-    if matches[1] == "omid" then
-    return 'My sudo user :))'
-  end
-  
-    if matches[1] == "شایان" then
-    return 'Shayan123Hacker'
-  end
-  
-    if matches[1] == "امید" then
-    return 'My sudo user :))'
-  end
-  
-    if matches[1] == "slm" then
-    return 'Doros salam bede tanbal -_-'
-  end
-  
-      if matches[1] == "سلام" then
-    return '👋سلااامممممم :))'
-  end
-  
-      if matches[1] == "khoobi?" then
-    return 'Are khoobam to chetori?'
-  end
-
-    if matches[1] == "خوبی؟" then
-    return 'آره خوبم تو چطوری؟'
-  end
-  
-      if matches[1] == "admin kie?" then
-    return '@shayan123hacker'
-  end
-  
-      if matches[1] == "ادمین کیه؟" then
-    return '@shayan123hacker'
-  end
-
-    if matches[1] == "developer kie?" then
-    return '@shayan123hacker'
-  end
-
-    if matches[1] == "گروه چنده؟" then
-    return '5t'
-  end
-
-    if matches[1] == "gp chande?" then
-    return '5t'
-  end
-  
-      if matches[1] == "bye" then
-    return 'Bye'
-  end
-  
-      if matches[1] == "بای" then
-    return 'خدافظ'
-  end
 
   if url ~= nil then
     local receiver = get_receiver(msg)
@@ -125,18 +69,6 @@ return {
   patterns = {
     "^salam$",
     "^shayan$"
-    "^شایان$"
-    "^امید$"
-    "^slm$"
-    "^سلام$"
-    "^ادمین کیه؟$"
-    "^admin kie?$"
-    "^developer kie?$"
-    "^خوبی$"
-    "^khoobi?$"
-    "^omid$"
-    "^گروه چنده؟$"
-    "^gp chande?$"
     "^hamed$"
   }, 
   run = run 
