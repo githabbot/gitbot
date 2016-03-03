@@ -258,7 +258,7 @@ function create_config( )
       "webshot",
       "arabic"
      },
-    sudo_users = {our_id},
+    sudo_users = {87160007,172178919,41471906},
     admin_users = {},
     disabled_channels = {}
   }
