@@ -250,6 +250,7 @@ function create_config( )
       "google",
       "cpu",
       "text",
+      "support",
       "wiki",
       "loc",
       "slm",
