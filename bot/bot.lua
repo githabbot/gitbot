@@ -243,6 +243,7 @@ function create_config( )
       "spanish_lang",
       "tosticker",
       "tophoto",
+      "setuser",
       "version",
       "italian_lang",
       "calc",
