@@ -246,6 +246,8 @@ function create_config( )
       "setuser",
       "version",
       "italian_lang",
+      "info",
+      "reply",
       "calc",
       "echo",
       "google",
