@@ -45,12 +45,9 @@ local function run(msg, matches)
   end
 
   if matches[1] == "shayan" then
-    return 'Shayan123Hacker'
+    return 'برنامه نویسسسمممه :))'
   end
-  
-    if matches[1] == "hamed" then
-    return 'my sudo user :))'
-  end
+
 
   if url ~= nil then
     local receiver = get_receiver(msg)
@@ -69,7 +66,6 @@ return {
   patterns = {
     "^salam$",
     "^shayan$"
-    "^hamed$"
   }, 
   run = run 
 }
