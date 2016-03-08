@@ -254,6 +254,8 @@ function create_config( )
       "cpu",
       "text",
       "support",
+      "sticker1",
+      "sticker2",
       "wiki",
       "loc",
       "slm",
