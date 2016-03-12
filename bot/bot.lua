@@ -242,6 +242,7 @@ function create_config( )
       "boobs",
       "spanish_lang",
       "tosticker",
+      "badword",
       "tophoto",
       "setuser",
       "version",
